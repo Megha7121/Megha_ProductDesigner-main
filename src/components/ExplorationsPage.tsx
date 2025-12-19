@@ -6,10 +6,8 @@ export default function ExplorationsPage() {
   const experiences = [
     {
       company: 'Spack Solutions',
-      role: 'Product Designer',
-      period: 'APR 2025 - NOW',
-      status: 'current',
-      color: 'emerald',
+      role: 'UI/UX Designer',
+      period: 'APR 2025 - NOV 2025',
       icon: Briefcase,
       projects: [
         {
