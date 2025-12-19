@@ -17,8 +17,8 @@ export default function ExplorationsPage() {
           metrics: ['Dashboard Design', 'Landing Pages', 'Stakeholder Collaboration'],
         },
         {
-          name: 'One Hub',
-          description: 'Built the landing page of this auditing and IT services–providing platform with a modern and professional design, contributing to a 30% boost in lead generation and improved brand perception.',
+          name: 'EV Echos',
+          description: 'Designed and built the landing page and mobile app UI for an EV charging product, contributing to a 30% increase in lead generation and improved brand perception.',
           impact: '30% boost in lead generation and improved brand perception',
           metrics: ['Modern Design', 'Professional UI', 'Lead Generation'],
         },
