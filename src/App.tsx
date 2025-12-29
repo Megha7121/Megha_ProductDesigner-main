@@ -386,7 +386,7 @@ export default function App() {
           {/* Hero Section */}
           <section className="mb-16 md:mb-24 lg:mb-32 mt-8 md:mt-12 lg:mt-16">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight mb-6 md:mb-8" style={{ fontWeight: '500' }}>
-              Turning pixels into purpose,<br />one delightful interaction at a time.
+              Designing clear, usable products,<br />for real-world web and mobile experiences.
             </h1>
 
             <div className="flex flex-wrap gap-2 mb-6">
