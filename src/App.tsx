@@ -635,8 +635,8 @@ export default function App() {
                     viewport={{ once: true }}
                     transition={{ delay: 0.5 }}
                   >
-                  Designing usable digital products,<br className="hidden md:block" />
-                  that solve real user problems.
+                  Designing clear digital products,<br className="hidden md:block" />
+                  for real-world use cases.
                   </motion.h2>
                   <motion.p 
                     className="text-sm text-white/60 mb-8 leading-relaxed"
