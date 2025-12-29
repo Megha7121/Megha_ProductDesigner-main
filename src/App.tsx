@@ -386,7 +386,7 @@ export default function App() {
           {/* Hero Section */}
           <section className="mb-16 md:mb-24 lg:mb-32 mt-8 md:mt-12 lg:mt-16">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight mb-6 md:mb-8" style={{ fontWeight: '500' }}>
-             Designing usable digital products,<br />that solve real user problems.
+            I think in flows and systems;<br />not just screens.
             </h1>
 
             <div className="flex flex-wrap gap-2 mb-6">
@@ -635,8 +635,8 @@ export default function App() {
                     viewport={{ once: true }}
                     transition={{ delay: 0.5 }}
                   >
-                    I'm not just here to design products;<br className="hidden md:block" />
-                    I'm here to connect with people.
+                   I'm here to design usable digital products;<br className="hidden md:block" />
+                   that solve real user problems.
                   </motion.h2>
                   <motion.p 
                     className="text-sm text-white/60 mb-8 leading-relaxed"
