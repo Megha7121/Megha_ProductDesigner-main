@@ -657,8 +657,8 @@ export default function App() {
                       whileHover={{ x: 10, scale: 1.02 }}
                       className="transition-colors hover:text-emerald-400 cursor-pointer"
                     >
-                      <div className="text-xs text-white/40 mb-1">PHONE NUMBER</div>
-                      <div className="text-sm">6382500951</div>
+                      <div className="text-xs text-white/40 mb-1">LINKEDIN</div>
+                      <div className="text-sm">www.linkedin.com/in/megha0712</div>
                     </motion.div>
                     <motion.div
                       initial={{ opacity: 0, x: -20 }}
