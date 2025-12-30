@@ -131,37 +131,37 @@ export default function AboutPage() {
             {
               icon: '👥',
               title: 'User-Centered',
-              description: 'Every design decision starts and ends with the user. I prioritize understanding their needs, pain points, and behaviors to create solutions that truly resonate.',
+              description: 'I design around real user workflows and pain points, grounding decisions in observed behavior rather than assumptions or trends.',
               accent: '#10b981'
             },
             {
               icon: '✨',
-              title: 'Simplicity',
-              description: 'Less is more. I believe in clean, minimal designs that eliminate unnecessary complexity while maintaining functionality and visual appeal.',
+              title: 'Clarity over Complexity',
+              description: 'I reduce cognitive load by prioritizing information, simplifying flows, and removing friction—especially in complex or data-heavy products.',
               accent: '#a855f7'
             },
             {
               icon: '♿',
-              title: 'Accessibility',
-              description: 'Design should be inclusive. I create experiences that everyone can use, regardless of their abilities or circumstances.',
+              title: 'Accessible by Default',
+              description: 'I consider accessibility early in the design process, ensuring interfaces remain usable across abilities, devices, and real-world contexts.',
               accent: '#3b82f6'
             },
             {
               icon: '📊',
-              title: 'Data-Driven',
-              description: 'Intuition guided by insights. I combine research, analytics, and user feedback to make informed design decisions that deliver measurable results.',
+              title: 'Insight-Led Decisions',
+              description: 'I use research insights, usage data, and feedback loops to validate design choices and guide iteration, not just intuition.',
               accent: '#f59e0b'
             },
             {
               icon: '🔄',
-              title: 'Iterative',
-              description: 'Design is never done. I embrace continuous improvement through testing, learning, and refining to achieve the best possible outcomes.',
+              title: 'Real-World Constraints',
+              description: 'I design with technical, business, and time constraints in mind, creating solutions that are practical, scalable, and ready to ship.',
               accent: '#6366f1'
             },
             {
               icon: '💚',
-              title: 'Empathy',
-              description: 'Understanding emotions is key. I design with compassion, considering the human experience behind every interaction and touchpoint.',
+              title: 'Systems Thinking',
+              description: 'I think beyond individual screens, designing systems that account for edge cases, scalability, and consistency across the product.',
               accent: '#ec4899'
             }
           ].map((principle, index) => (
