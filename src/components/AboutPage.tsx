@@ -325,7 +325,7 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.6 }}
               >
-                As a product designer, I'm on an exciting journey to blend creativity with technology to craft memorable user experiences that resonate.
+                I’m a Product Designer (UX/UI) working on web and mobile products, focusing on clear user flows, scalable systems, and real-world constraints—from discovery to implementation-ready design.
               </motion.p>
 
               <div className="space-y-4">
