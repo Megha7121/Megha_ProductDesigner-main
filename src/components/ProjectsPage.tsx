@@ -116,26 +116,26 @@ export default function ProjectsPage({ onProjectClick }: ProjectsPageProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[
             {
-              title: 'Product Strategy',
-              description: 'Defining product vision, conducting market research, and creating roadmaps that align business goals with user needs.',
+              title: 'Product Thinking',
+              description: 'I contribute to product direction by understanding business goals, user needs, and technical constraints, helping shape design decisions and feature priorities.',
               image: 'https://images.unsplash.com/photo-1646535179579-8221bbaf2086?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwZGVzaWduJTIwcHJvY2Vzc3xlbnwxfHx8fDE3NjIwMjQzNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
               color: 'from-emerald-500/20 to-transparent'
             },
             {
-              title: 'UX Research',
-              description: 'Conducting user interviews, usability testing, and analyzing behavioral data to inform design decisions.',
+              title: 'User Insights',
+              description: 'I support design decisions through user interviews, usability testing, and feedback analysis, focusing on insights that directly inform flows and interfaces.',
               image: 'https://images.unsplash.com/photo-1587955415524-bb264e518428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1c2VyJTIwZXhwZXJpZW5jZSUyMHJlc2VhcmNofGVufDF8fHx8MTc2MjAyNDM0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
               color: 'from-blue-500/20 to-transparent'
             },
             {
               title: 'Interface Design',
-              description: 'Creating intuitive, aesthetically pleasing interfaces with attention to typography, color theory, and visual hierarchy.',
+              description: 'Designing clear, intuitive interfaces with a strong focus on visual hierarchy, typography, and consistency—ensuring usability across complex user flows.',
               image: 'https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxOTk3NzI3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
               color: 'from-purple-500/20 to-transparent'
             },
             {
               title: 'Design Systems',
-              description: 'Building scalable component libraries and design tokens that ensure consistency across products and teams.',
+              description: 'Contributing to scalable component libraries and reusable patterns to maintain consistency and efficiency across product interfaces.',
               image: 'https://images.unsplash.com/photo-1562601555-513820e5d0eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBzeXN0ZW0lMjB1aSUyMGNvbXBvbmVudHN8ZW58MXx8fHwxNzYyMDI0MzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
               color: 'from-orange-500/20 to-transparent'
             },
