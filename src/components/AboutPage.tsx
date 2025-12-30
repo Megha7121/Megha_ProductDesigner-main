@@ -315,8 +315,8 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.5 }}
               >
-                I'm not just here to design products;<br className="hidden md:block" />
-                I'm here to connect with people.
+               I think in flows and systems;<br className="hidden md:block" />
+              not just screens.
               </motion.h2>
               <motion.p 
                 className="text-sm text-white/60 mb-8 leading-relaxed"
