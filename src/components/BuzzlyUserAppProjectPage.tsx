@@ -408,7 +408,7 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               <div className="rounded-2xl overflow-hidden border border-white/10">
                 <ImageWithFallback 
-                  src="https://images.unsplash.com/photo-1753715613388-7e03410b1dce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzeXN0ZW0lMjBhcmNoaXRlY3R1cmUlMjBkaWFncmFtfGVufDF8fHx8MTc2MjA1NjA1NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
+                  src="https://images.unsplash.com/photo-1649503382327-1628ae367796?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dWklMjB1eHxlbnwwfDJ8MHx8fDI%3D" 
                   alt="Information Architecture" 
                   className="w-full h-auto" 
                 />
