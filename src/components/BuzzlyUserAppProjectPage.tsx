@@ -172,40 +172,6 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
               </p>
             </div>
           </div>
-
-          <div className="bg-gradient-to-br from-[#6A0DAD]/10 to-transparent rounded-2xl p-8 md:p-12 border border-[#6A0DAD]/20">
-            <h3 className="text-2xl mb-6">User Pain Points</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ul className="space-y-3">
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span> Spending 3+ hours daily on social media management tasks</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Missing optimal posting times due to manual scheduling</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Difficulty maintaining consistent brand voice across platforms</span>
-                </li>
-              </ul>
-              <ul className="space-y-3">
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Unable to track ROI effectively across campaigns</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Frustration with complex interfaces and steep learning curves</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Limited mobile functionality in existing solutions</span>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -343,57 +309,6 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
               </div>
             </div>
           </div>
-
-          {/* User Personas */}
-          <div>
-            <h3 className="text-2xl mb-6 text-[#6A0DAD]">User Personas</h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div className="bg-white/5 rounded-xl p-8 border border-white/10">
-                <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-[#6A0DAD]">
-                  <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1581065178026-390bc4e78dad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MTk1MTY5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="Emma Rodriguez"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="mb-2">Emma Rodriguez</h4>
-                <p className="text-[#6A0DAD] mb-4">Content Creator</p>
-                <p className="text-white/60 mb-6">
-                  Lifestyle influencer managing 4 social platforms with 150K+ followers. Needs efficient scheduling and engagement tracking.
-                </p>
-                <div>
-                  <p className="mb-3">Goals:</p>
-                  <ul className="space-y-2 text-white/60">
-                    <li>• Maintain consistent posting schedule</li>
-                    <li>• Track what content performs best</li>
-                    <li>• Grow audience engagement</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="bg-white/5 rounded-xl p-8 border border-white/10">
-                <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-[#6A0DAD]">
-                  <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjE5NTE2OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="David Park"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="mb-2">David Park</h4>
-                <p className="text-[#6A0DAD] mb-4">Agency Account Manager</p>
-                <p className="text-white/60 mb-6">
-                  Manages social media for 8 clients with a team of 5. Requires robust collaboration and approval workflows.
-                </p>
-                <div>
-                  <p className="mb-3">Goals:</p>
-                  <ul className="space-y-2 text-white/60">
-                    <li>• Streamline client approval process</li>
-                    <li>• Coordinate team efficiently</li>
-                    <li>• Deliver measurable results</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -491,12 +406,12 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
                   <span className="text-[#212529]">1</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">Content Review Modes</h4>
+                  <h4 className="mb-3">Adaptive Display Modes</h4>
                   <p className="text-white/60 mb-4">
-                    User testing revealed that 67% of clients review content in varying lighting conditions throughout the day. I designed adaptive light and dark review modes with seamless switching, ensuring optimal content visibility and reduced eye strain whether reviewing morning campaigns or late-night approvals.
+                  67% of clients review content throughout the day in shifting light. We built seamless light/dark mode switching to reduce eye strain from morning reviews to late-night approvals.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 43% increase in app usage during evening hours</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Reduced reported eye strain by 43% in user feedback surveys.</p>
                   </div>
                 </div>
               </div>
@@ -508,12 +423,12 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
                   <span className="text-[#212529]">2</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">Quick Approval Workflows</h4>
+                  <h4 className="mb-3">Mobile-First Approvals</h4>
                   <p className="text-white/60 mb-4">
-                    Research showed that 84% of clients approve content on mobile during commutes or between meetings. I prioritized thumb-friendly approval actions with bottom navigation, swipe gestures for approve/reject, and one-tap commenting, making content reviews effortless on the go.
+                    84% of clients approve on mobile between meetings or during commutes. Bottom navigation and swipe gestures made reviews effortless with one hand.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 38% faster task completion on mobile devices</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Approval time dropped from an average of 2.5 days to 8 hours.</p>
                   </div>
                 </div>
               </div>
@@ -525,12 +440,12 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
                   <span className="text-[#212529]">3</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">Full-Context Content Preview</h4>
-                  <p className="text-white/60 mb-4">
-                    Clients struggled with approving posts without seeing the full campaign context. I implemented a visual calendar with thumbnail previews, campaign grouping, and drag-and-drop rescheduling requests, allowing clients to see how individual posts fit into their overall content strategy before approval.
+                  <h4 className="mb-3">Campaign Context Matters</h4>
+                  <p className="text-white/60 mb-4">                    
+                    Clients couldn't confidently approve posts in isolation. A visual calendar with thumbnails let them see how each piece fit into the broader strategy.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 52% reduction in scheduling errors</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Revision requests decreased by 56% as clients gained full campaign visibility.</p>
                   </div>
                 </div>
               </div>
@@ -542,12 +457,12 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
                   <span className="text-[#212529]">4</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">Multi-Stakeholder Approval Chains</h4>
+                  <h4 className="mb-3">Eliminating Email Chains</h4>
                   <p className="text-white/60 mb-4">
-                    Agency clients needed streamlined approval processes across marketing teams, legal, and executives. I designed customizable approval workflows with role-based permissions, @mention comments, and real-time status tracking, eliminating endless email chains and version confusion.
+                    Multi-stakeholder approvals created version chaos. Role-based workflows with @mentions and real-time tracking replaced endless email threads.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 47% faster approval cycles for agency teams</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Cut approval cycles by 60% for campaigns requiring multiple stakeholders.</p>
                   </div>
                 </div>
               </div>
@@ -569,7 +484,6 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -708,6 +622,9 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
       <section className="py-20 px-6 md:px-12 lg:px-24 bg-white/[0.02] border-b border-white/5">
         <div className="max-w-6xl mx-auto">
           <h2 className="mb-12">Results & Impact</h2>
+          <p className="text-white/60 leading-relaxed mb-8">
+              Metrics based on usability testing and post-task feedback
+          </p>
           
           {/* Metrics */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
