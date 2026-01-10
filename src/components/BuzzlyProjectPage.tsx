@@ -126,56 +126,26 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
               </div>
               <h4 className="mb-3">Fragmented Workflow</h4>
               <p className="text-white/60">
-                Social media managers juggle 5-7 different tools to manage their clients' accounts, wasting hours on context switching and manual coordination. The landing page listed "multi-platform scheduling" without showing how much time this actually saves or the workflow chaos it eliminates.
+                Social media managers switch between 5-7 tools daily. We weren't just solving for efficiency—we were addressing cognitive load and workflow fatigue.
               </p>
             </div>
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="w-12 h-12 rounded-lg bg-[#6A0DAD]/20 flex items-center justify-center mb-6">
                 <Clock className="w-6 h-6 text-[#6A0DAD]" />
               </div>
-              <h4 className="mb-3">Time-Consuming Approvals</h4>
+              <h4 className="mb-3">Approval Bottlenecks</h4>
               <p className="text-white/60">
-                Content approval processes rely on email chains and screenshots, causing delays and version control nightmares for agency teams. The existing page buried this capability without emphasizing the pain of current solutions or the speed Buzzly enables.
+                Email threads and screenshot approvals create version chaos. The real problem wasn't the tool—it was the async communication breakdown between teams.
               </p>
             </div>
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="w-12 h-12 rounded-lg bg-[#6A0DAD]/20 flex items-center justify-center mb-6">
                 <TrendingUp className="w-6 h-6 text-[#6A0DAD]" />
               </div>
-              <h4 className="mb-3">Limited Visibility</h4>
+              <h4 className="mb-3">Insights, Not Just Data</h4>
               <p className="text-white/60">
-                Existing tools provide basic analytics but fail to deliver actionable insights that help businesses grow their social presence. The landing page focused on "comprehensive analytics" without demonstrating what insights users gain or how they drive better decisions.
+                Users had analytics but no direction. They could see what happened, but not what to do next. We needed to bridge the gap between metrics and action.
               </p>
-            </div>
-          </div>
-
-          <div className="bg-gradient-to-br from-[#6A0DAD]/10 to-transparent rounded-2xl p-8 md:p-12 border border-[#6A0DAD]/20">
-            <h3 className="text-2xl mb-6">User Pain Points</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ul className="space-y-3">
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Spending 2+ hours daily switching between platforms and tools, leaving less time for creative strategy</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Missing optimal posting times due to manual coordination across teams and clients</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Difficulty maintaining consistent brand voice across multiple client accounts</span>
-                </li>
-              </ul>
-              <ul className="space-y-3">
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Client approval bottlenecks delaying content publication and straining relationships</span>
-                </li>
-                <li className="flex gap-3 text-white/70">
-                  <span className="text-[#6A0DAD] flex-shrink-0">→</span>
-                  <span>Unable to demonstrate clear ROI to clients, making renewals and upsells harder</span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -193,15 +163,15 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
               <div className="space-y-6">
                 <div className="border-l-4 border-[#6A0DAD] pl-6">
                   <h4 className="mb-2">Communicate Value Faster</h4>
-                  <p className="text-white/60">Reduce time-to-comprehension from 45 seconds to under 10 seconds by leading with outcomes instead of features, helping visitors immediately understand what Buzzly solves.</p>
+                  <p className="text-white/60">Cut comprehension time from 45 to 10 seconds by leading with outcomes over features.</p>
                 </div>
                 <div className="border-l-4 border-[#6A0DAD] pl-6">
                   <h4 className="mb-2">Increase Visitor Engagement</h4>
-                  <p className="text-white/60">Improve average session time from 2 minutes to 3+ minutes by creating a clear narrative flow that builds confidence and guides users toward conversion.</p>
+                  <p className="text-white/60">Extend session time from 2 to 3+ minutes through clearer narrative flow and confidence-building content.</p>
                 </div>
                 <div className="border-l-4 border-[#6A0DAD] pl-6">
                   <h4 className="mb-2">Drive Qualified Conversions</h4>
-                  <p className="text-white/60">Increase demo request rate by 25% through clearer CTAs, stronger social proof placement, and messaging that resonates with user pain points.
+                  <p className="text-white/60">Boost demo requests by 25% with sharper CTAs, strategic social proof, and pain-point-focused messaging.
                   </p>
                 </div>
               </div>
@@ -243,7 +213,7 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               <div>
                  <p className="text-white/60 leading-relaxed mb-6">
-                  I conducted 12 in-depth interviews with social media managers, marketing agencies, and small business owners to understand not just their workflows and pain points, but specifically how they evaluate and choose new tools. The research included contextual inquiries, diary studies, and competitive landing page analysis to identify what messaging resonates and what causes visitors to bounce.
+                  12 interviews with social media managers and small business owners revealed how they evaluate new tools. I combined contextual inquiries with competitive analysis to understand what messaging converts and what causes bounce.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3 text-white/60">
@@ -264,15 +234,15 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 <div className="space-y-6">
                   <div className="border-l-4 border-[#6A0DAD] pl-5">
                     <h4 className="mb-1">Research Methods</h4>
-                    <p className="text-sm text-white/60">User interviews, contextual inquiry, diary studies, competitive analysis, landing page heuristic evaluation</p>
+                    <p className="text-sm text-white/60">User interviews, contextual inquiry, diary studies, competitive analysis, heuristic evaluation</p>
                   </div>
                   <div className="border-l-4 border-[#6A0DAD] pl-5">
                     <h4 className="mb-1">Participants</h4>
-                    <p className="text-sm text-white/60">12 users across social media managers, agencies, and business owners</p>
+                    <p className="text-sm text-white/60">12 users—social media managers, agencies, and business owners</p>
                   </div>
                   <div className="border-l-4 border-[#6A0DAD] pl-5">
                     <h4 className="mb-1">Key Finding</h4>
-                    <p className="text-sm text-white/60">Users don't evaluate tools based on features—they ask "Will this actually save me time?" The landing page needed to answer this question in under 10 seconds with concrete proof, not feature lists.</p>
+                    <p className="text-sm text-white/60">Users don't care about features. They ask one question: "Will this save me time?" We had 10 seconds to prove it.</p>
                   </div>
                 </div>
               </div>
@@ -314,57 +284,6 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 <div>
                   <p className="text-sm text-white/60 mb-2">Weaknesses:</p>
                   <p className="text-sm text-white/60">Very expensive, overwhelming interface for small teams</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* User Personas */}
-          <div>
-            <h3 className="text-2xl mb-6 text-[#6A0DAD]">User Personas</h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div className="bg-white/5 rounded-xl p-8 border border-white/10">
-                <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-[#6A0DAD]">
-                  <ImageWithFallback 
-                    src="https://images.unsplash.com/photo-1581065178026-390bc4e78dad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MTk1MTY5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="Sarah Martinez"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="mb-2">Sarah Martinez</h4>
-                <p className="text-[#6A0DAD] mb-4">Social Media Manager</p>
-                <p className="text-white/60 mb-6">
-                  Manages social media for 3-5 agency clients. Needs efficient scheduling, approval workflows, and performance tracking.
-                </p>
-                <div>
-                  <p className="mb-3">Goals:</p>
-                  <ul className="space-y-2 text-white/60">
-                    <li>• Save time on repetitive tasks</li>
-                    <li>• Streamline client approvals</li>
-                    <li>• Track performance metrics</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="bg-white/5 rounded-xl p-8 border border-white/10">
-                <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-[#6A0DAD]">
-                  <ImageWithFallback 
-                    src="https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjE5NTE2OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="James Chen"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="mb-2">James Chen</h4>
-                <p className="text-[#6A0DAD] mb-4">Small Business Owner</p>
-                <p className="text-white/60 mb-6">
-                  Runs a local cafe and manages social media himself. Looking for a simple, affordable solution.
-                </p>
-                <div>
-                  <p className="mb-3">Goals:</p>
-                  <ul className="space-y-2 text-white/60">
-                    <li>• Easy to use interface</li>
-                    <li>• Affordable pricing</li>
-                    <li>• Schedule posts in advance</li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -466,10 +385,10 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 <div className="flex-1">
                   <h4 className="mb-3">Outcome-First Hero</h4>
                   <p className="text-white/60 mb-4">
-                    User testing revealed that 78% of visitors bounced within 10 seconds when faced with generic "all-in-one platform" messaging. I redesigned the hero to lead with quantified outcomes ("Save 10 hours per week") and a visual demonstration of the unified workflow, making value immediately tangible.
+                    Generic messaging caused immediate bounces. I led with quantified outcomes and visual workflows to make value instantly clear.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 25% increase in scroll depth past hero section and 18% improvement in clarity scores</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 25% increase in scroll depth, 18% better clarity scores</p>
                   </div>
                 </div>
               </div>
@@ -483,10 +402,10 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 <div className="flex-1">
                   <h4 className="mb-3">Problem-Solution Mirroring</h4>
                   <p className="text-white/60 mb-4">
-                    Research showed visitors needed to see their specific pain points reflected before trusting a solution. I structured the page to mirror exact language from user interviews ("juggling 5-7 tools," "approval bottlenecks") before introducing Buzzly's solution, creating immediate resonance.
+                    Users needed to see their pain points reflected first. I used exact language from interviews before introducing solutions.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 30% increase in time spent on feature sections and higher message match scores</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 30% more time on feature sections</p>
                   </div>
                 </div>
               </div>
@@ -500,10 +419,10 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 <div className="flex-1">
                   <h4 className="mb-3">Progressive Trust Building</h4>
                   <p className="text-white/60 mb-4">
-                    Competitive analysis showed users found existing tools "too complex" and were skeptical of claims. I implemented a layered proof strategy: customer logos after the hero, specific use cases in feature sections, and detailed testimonials with measurable outcomes before the CTA.
+                    Skepticism was high around complexity claims. I layered proof strategically—logos early, detailed testimonials near CTAs.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 22% increase in demo request submissions from qualified traffic</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 22% more demo requests from qualified visitors</p>
                   </div>
                 </div>
               </div>
@@ -517,10 +436,10 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 <div className="flex-1">
                   <h4 className="mb-3">Segmented Messaging</h4>
                   <p className="text-white/60 mb-4">
-                    Analytics revealed two distinct visitor segments (agencies vs. in-house teams) with different pain points. I designed modular feature sections that could be dynamically shown based on traffic source, speaking directly to each audience's specific workflow challenges.
+                    Two distinct audiences needed different narratives. I designed modular sections that adapted based on traffic source.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 35% improvement in relevance ratings and 20% higher engagement for segmented traffic</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 35% improvement in relevance, 20% higher engagement</p>
                   </div>
                 </div>
               </div>
@@ -659,6 +578,9 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
       <section className="py-20 px-6 md:px-12 lg:px-24 bg-white/[0.02] border-b border-white/5">
         <div className="max-w-6xl mx-auto">
           <h2 className="mb-12">Results & Impact</h2>
+          <p className="text-white/60 leading-relaxed mb-8">
+              Metrics based on usability testing and post-task feedback
+          </p>
           
           {/* Metrics */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -694,8 +616,8 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                   <span className="text-[#212529]">1</span>
                 </div>
                 <div>
-                  <h4 className="mb-2">User Testing is Non-Negotiable</h4>
-                  <p className="text-white/60">5-second tests revealed users couldn't articulate what Buzzly did from the original hero. A/B testing three headline variations showed quantified value ("Save 10 hours/week") outperformed feature lists by 32%. This reinforced that assumptions about "clear" messaging must always be validated with real visitors.</p>
+                  <h4 className="mb-2">Test Early, Test Often</h4>
+                  <p className="text-white/60">Our "clear" messaging wasn't clear at all. 5-second tests caught this before launch, and A/B testing showed quantified value beat feature lists by 32%.</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -703,8 +625,8 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                   <span className="text-[#212529]">2</span>
                 </div>
                 <div>
-                  <h4 className="mb-2">Simplicity Wins Over Feature Lists</h4>
-                  <p className="text-white/60">Heatmaps showed 68% of visitors never scrolled past dense feature grids. Progressive disclosure—revealing features as users engage—reduced cognitive load while maintaining credibility. Landing pages are conversation starters, not product documentation. Less is more when building trust with skeptical visitors.</p>
+                  <h4 className="mb-2">Progressive Over Comprehensive</h4>
+                  <p className="text-white/60">Heatmaps revealed 68% never scrolled past our feature grid. We learned landing pages aren't documentation—they're invitations to learn more.</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -712,8 +634,8 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                   <span className="text-[#212529]">3</span>
                 </div>
                 <div>
-                  <h4 className="mb-2">Message Match Drives Conversion</h4>
-                  <p className="text-white/60">Mirroring exact user research language ("juggling 5-7 tools," "approval bottlenecks") increased engagement by 35%. Effective landing pages don't educate—they resonate. Users need to feel understood before considering a solution, which requires ruthless precision in word choice based on research verbatims.</p>
+                  <h4 className="mb-2">Mirror Their Language</h4>
+                  <p className="text-white/60">Using exact phrases from user research ("juggling 5-7 tools") increased engagement by 35%. Resonance beats education every time.</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -721,8 +643,8 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                   <span className="text-[#212529]">4</span>
                 </div>
                 <div>
-                  <h4 className="mb-2">Trust Must Be Earned Progressively</h4>
-                  <p className="text-white/60">Strategic social proof placement outperformed generic logo dumps. The winning formula: logos after value prop, use case testimonials in feature sections, detailed ROI stories before the final CTA. Users need proof that escalates with their commitment level—asking for a demo without earning trust creates friction at the critical conversion moment.</p>
+                  <h4 className="mb-2">Earn Trust Gradually</h4>
+                  <p className="text-white/60">Strategic social proof—logos early, testimonials mid-page, ROI stories before CTAs—outperformed throwing everything at once. Commitment and credibility need to escalate together.</p>
                 </div>
               </div>
             </div>
