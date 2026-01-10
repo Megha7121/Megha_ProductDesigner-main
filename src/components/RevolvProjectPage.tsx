@@ -130,7 +130,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               <div>
                 <p className="text-white/60 leading-relaxed mb-6">
-                  I conducted research with 15 charging station operators, fleet managers, and EV infrastructure companies to understand not just their operational pain points, but specifically how they evaluate and choose platform vendors. The research combined stakeholder interviews, competitive landing page analysis, and decision-making journey mapping to identify what builds trust with infrastructure buyers.
+                  I spoke with 15 charging operators, fleet managers, and infrastructure companies to understand how they choose platform vendors. Through interviews, competitive analysis, and journey mapping, I identified what builds trust with infrastructure buyers and where existing solutions fall short.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3 text-white/60">
@@ -202,57 +202,6 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                   <p className="text-sm text-white/60 mb-2">Weaknesses:</p>
                   <p className="text-sm text-white/60"> Complex positioning with steep learning curve, overwhelming for mid-size operators—created opportunity for Revolv's clarity-first approach
                 </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* User Personas */}
-          <div>
-            <h3 className="text-2xl mb-6 text-[#03FF68]">User Personas</h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div className="bg-white/5 rounded-xl p-8 border border-white/10">
-                <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-[#03FF68]">
-                  <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1581065178026-390bc4e78dad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MTk1MTY5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="Lisa Chen"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="mb-2">Lisa Chen</h4>
-                <p className="text-[#03FF68] mb-4">Station Operator Manager</p>
-                <p className="text-white/60 mb-6">
-                  Manages 50+ charging stations across multiple locations. Needs efficient monitoring and quick issue resolution.
-                </p>
-                <div>
-                  <p className="mb-3">Goals:</p>
-                  <ul className="space-y-2 text-white/60">
-                    <li>• Minimize station downtime</li>
-                    <li>• Streamline maintenance operations</li>
-                    <li>• Track revenue and utilization</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="bg-white/5 rounded-xl p-8 border border-white/10">
-                <div className="w-16 h-16 rounded-full overflow-hidden mb-6 border-2 border-[#03FF68]">
-                  <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjE5NTE2OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                    alt="Marcus Johnson"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h4 className="mb-2">Marcus Johnson</h4>
-                <p className="text-[#03FF68] mb-4">Fleet Operations Director</p>
-                <p className="text-white/60 mb-6">
-                  Oversees an EV fleet of 200+ vehicles. Requires reliable charging infrastructure and detailed analytics.
-                </p>
-                <div>
-                  <p className="mb-3">Goals:</p>
-                  <ul className="space-y-2 text-white/60">
-                    <li>• Ensure fleet charging availability</li>
-                    <li>• Optimize charging schedules</li>
-                    <li>• Control charging costs</li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -515,7 +464,10 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
       {/* Outcomes & Impact */}
       <section className="py-20 px-6 md:px-12 lg:px-24 border-b border-white/5">
         <div className="max-w-6xl mx-auto">
-          <h2 className="mb-12">Outcomes & Impact</h2>
+          <h2 className="mb-12">Results & Impact</h2>
+          <p className="text-white/60 leading-relaxed mb-8">
+              Metrics based on usability testing and post-task feedback
+          </p>
           
           {/* Metrics */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
