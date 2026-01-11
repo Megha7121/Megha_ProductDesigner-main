@@ -130,36 +130,36 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               <div>
                 <p className="text-white/60 leading-relaxed mb-6">
-                  I spoke with 15 charging operators, fleet managers, and infrastructure companies to understand how they choose platform vendors. Through interviews, competitive analysis, and journey mapping, I identified what builds trust with infrastructure buyers and where existing solutions fall short.
+                 I spoke with 15 charging operators, fleet managers, and infrastructure companies to understand their decision-making process. Through interviews and journey mapping, I uncovered three critical gaps in existing platforms:
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3 text-white/60">
                     <span className="text-[#03FF68] flex-shrink-0">•</span>
-                    <span>78% of operators lack real-time visibility into station performance and uptime</span>
+                    <span>78% lack real-time visibility into station performance.</span>
                   </li>
                   <li className="flex gap-3 text-white/60">
                     <span className="text-[#03FF68] flex-shrink-0">•</span>
-                    <span>65% struggle coordinating maintenance across multiple locations and vendors</span>
+                    <span> 65% struggle coordinating across multiple locations and vendors.</span>
                   </li>
                   <li className="flex gap-3 text-white/60">
                     <span className="text-[#03FF68] flex-shrink-0">•</span>
-                    <span>82% make operational decisions without comprehensive utilization analytics</span>
+                    <span>82% operate without comprehensive utilization analytics.</span>
                   </li>
                 </ul>
               </div>
               <div className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 p-8">
                 <div className="space-y-6">
                   <div className="border-l-4 border-[#03FF68] pl-5">
-                    <h4 className="mb-1">Station Downtime</h4>
-                    <p className="text-sm text-white/60">Average 18% downtime due to delayed maintenance response—a key trust barrier for operators evaluating new platforms</p>
+                    <h4 className="mb-1">Downtime Kills Trust</h4>
+                    <p className="text-sm text-white/60">18% Downtime Delayed maintenance erodes operator trust before they even start.</p>
                   </div>
                   <div className="border-l-4 border-[#03FF68] pl-5">
-                    <h4 className="mb-1">Management Time</h4>
-                    <p className="text-sm text-white/60">Operators spend 3+ hours daily managing station issues manually—the primary pain point driving platform adoption</p>
+                    <h4 className="mb-1">Death by Dashboard</h4>
+                    <p className="text-sm text-white/60">3+ Hours Lost Daily Manual station management consumed entire workdays.</p>
                   </div>
                   <div className="border-l-4 border-[#03FF68] pl-5">
-                    <h4 className="mb-1">Data Fragmentation</h4>
-                    <p className="text-sm text-white/60">Critical information scattered across 4-6 disconnected systems—making unified dashboards a major differentiator</p>
+                    <h4 className="mb-1">Six Systems, Zero Clarity</h4>
+                    <p className="text-sm text-white/60">Six Disconnected Systems Scattered data meant no one had the full picture.</p>
                   </div>
                 </div>
               </div>
@@ -227,16 +227,16 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                 </p>
                 <div className="space-y-4">
                   <div className="border-l-4 border-[#03FF68] pl-5">
-                    <h4 className="mb-1">Outcome-Driven Hero</h4>
-                    <p className="text-sm text-white/60">Lead with quantified uptime (99.8%) and cost savings to immediately answer "Why should I care?" for infrastructure buyers.</p>
+                    <h4 className="mb-1">Hero as Anchor</h4>
+                    <p className="text-sm text-white/60">Lead with 99.8% uptime. Decision-makers evaluate risk first, features second.</p>
                   </div>
                   <div className="border-l-4 border-[#03FF68] pl-5">
-                    <h4 className="mb-1">Stakeholder Segmentation</h4>
-                    <p className="text-sm text-white/60">Modular sections for operators (uptime), fleet managers (cost tracking), and drivers (availability)—visitors self-identify and find relevant value.</p>
+                    <h4 className="mb-1">Design for Multiple Journeys</h4>
+                    <p className="text-sm text-white/60">Operators, fleet managers, and drivers each get their own pathway. One story doesn't fit all stakeholders.</p>
                   </div>
                   <div className="border-l-4 border-[#03FF68] pl-5">
-                    <h4 className="mb-1">Clear Conversion Path</h4>
-                    <p className="text-sm text-white/60">Single primary CTA per section guiding toward demo, with secondary options for those needing more information.</p>
+                    <h4 className="mb-1">One Action Per Moment</h4>
+                    <p className="text-sm text-white/60">One clear CTA per section. Multiple options create paralysis.</p>
                   </div>
                 </div>
               </div>
@@ -257,10 +257,10 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                 <div className="flex-1">
                   <h4 className="mb-3"> Layer Information by Intent</h4>
                   <p className="text-white/60 mb-4">
-                   Visitors arrive at different stages of readiness. We built progressive disclosure into the page—quick value propositions up front, technical depth available on demand.
+                   Progressive disclosure for different visitor readiness levels—quick value up front, depth on demand
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 40% increase in scroll depth and 28% longer time on page for qualified visitors</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span>  Scroll depth increased 40%.</p>
                   </div>
                 </div>
               </div>
@@ -272,12 +272,12 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                   <span className="text-[#212529]">2</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">. Enable Internal Champions</h4>
+                  <h4 className="mb-3"> Enable Internal Champions</h4>
                   <p className="text-white/60 mb-4">
-                    Most buyers need to convince others before reaching out. Downloadable one-pagers and ROI tools turned interested visitors into internal advocates.
+                    and ROI tools turned interested visitors into internal advocates.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 35% of demo requests now include "shared with team" in qualification notes</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 35% of demos now include team collaboration.</p>
                   </div>
                 </div>
               </div>
@@ -291,10 +291,10 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                 <div className="flex-1">
                   <h4 className="mb-3">Reduce Decision Fatigue</h4>
                   <p className="text-white/60 mb-4">
-                    Too many features created paralysis. A streamlined comparison approach helped visitors understand our edge without the cognitive overload.
+                    Streamlined comparisons over feature lists. Clarity beats comprehensiveness.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 52% reduction in "back" button clicks after feature section</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 52% fewer visitors bounced from features.</p>
                   </div>
                 </div>
               </div>
@@ -306,12 +306,12 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                   <span className="text-[#212529]">4</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">Speak to Multiple Audiences</h4>
+                  <h4 className="mb-3">Design for Multiple Audiences</h4>
                   <p className="text-white/60 mb-4">
-                    Operators, fleet managers, and drivers all visit with different needs. Modular content blocks let us adapt messaging based on who's landing on the page.
+                    Modular content that adapts to operators, fleet managers, and drivers.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 45% improvement in message match scores for segmented traffic</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Message match scores improved 45%.</p>
                   </div>
                 </div>
               </div>
@@ -323,12 +323,12 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                   <span className="text-[#212529]">5</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="mb-3">Real-Time Agency Collaboration</h4>
+                  <h4 className="mb-3">Show, Don't Tell</h4>
                   <p className="text-white/60 mb-4">
-                    User testing revealed trust barriers around uptime claims. I added a live status dashboard widget showing real-time network performance, providing tangible proof instead of static claims.
+                    Live status dashboard instead of static claims. Real-time proof builds trust. 
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 30% increase in demo requests after implementation</p>
+                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Demo requests jumped 30%.</p>
                   </div>
                 </div>
               </div>
