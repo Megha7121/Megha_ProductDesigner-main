@@ -97,7 +97,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                 Revolv's landing page wasn't converting visitors despite strong product-market fit. Station operators and fleet managers couldn't quickly understand how the platform solved their fragmentation problems, resulting in a 40% bounce rate and low demo requests.
               </p>
               <p className="font-semibold text-white mb-2">
-                The core issues:
+                The core issue:
               </p>
                <p className="text-white/60 leading-relaxed">
                 The page listed technical capabilities without addressing trust and reliability concerns critical to infrastructure buyers. Generic messaging failed to speak to specific stakeholder pain points, causing confusion about who the product actually served.
