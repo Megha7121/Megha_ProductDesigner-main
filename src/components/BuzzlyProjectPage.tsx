@@ -92,7 +92,7 @@ export default function BuzzlyProjectPage({ onBack, onProjectClick }: BuzzlyProj
                 Buzzly's landing page was driving traffic but failing to convert. Small to medium-sized businesses and marketing agencies couldn't quickly grasp the platform's value, resulting in a 35% bounce rate and low demo sign-ups.
               </p>
               <p className="font-semibold text-white mb-2">
-                The core issues:
+                The core issue:
               </p>
                <p className="text-white/60 leading-relaxed">
                   Visitors were overwhelmed by feature lists without understanding outcomes, the value proposition was buried, and multiple CTAs created decision paralysis. This directly impacted customer acquisition costs and slowed revenue growth.
