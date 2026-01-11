@@ -251,7 +251,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
           <div className="space-y-8">
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="flex gap-4 items-start">
-                <div className="w-8 h-8 rounded-full bg-[#6A0DAD] flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#03FF68] flex items-center justify-center flex-shrink-0">
                   <span className="text-[#212529]">1</span>
                 </div>
                 <div className="flex-1">
@@ -260,7 +260,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                    Progressive disclosure for different visitor readiness levels—quick value up front, depth on demand
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span>  Scroll depth increased 40%.</p>
+                    <p className="text-sm text-white/60"><span className="text-[#03FF68]">Impact:</span>  Scroll depth increased 40%.</p>
                   </div>
                 </div>
               </div>
@@ -268,7 +268,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
 
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="flex gap-4 items-start">
-                <div className="w-8 h-8 rounded-full bg-[#6A0DAD] flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#03FF68] flex items-center justify-center flex-shrink-0">
                   <span className="text-[#212529]">2</span>
                 </div>
                 <div className="flex-1">
@@ -277,7 +277,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                     and ROI tools turned interested visitors into internal advocates.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 35% of demos now include team collaboration.</p>
+                    <p className="text-sm text-white/60"><span className="text-[#03FF68]">Impact:</span> 35% of demos now include team collaboration.</p>
                   </div>
                 </div>
               </div>
@@ -285,7 +285,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
 
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="flex gap-4 items-start">
-                <div className="w-8 h-8 rounded-full bg-[#6A0DAD] flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#03FF68] flex items-center justify-center flex-shrink-0">
                   <span className="text-[#212529]">3</span>
                 </div>
                 <div className="flex-1">
@@ -294,7 +294,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                     Streamlined comparisons over feature lists. Clarity beats comprehensiveness.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> 52% fewer visitors bounced from features.</p>
+                    <p className="text-sm text-white/60"><span className="text-[#03FF68]">Impact:</span> 52% fewer visitors bounced from features.</p>
                   </div>
                 </div>
               </div>
@@ -302,7 +302,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
 
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="flex gap-4 items-start">
-                <div className="w-8 h-8 rounded-full bg-[#6A0DAD] flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#03FF68] flex items-center justify-center flex-shrink-0">
                   <span className="text-[#212529]">4</span>
                 </div>
                 <div className="flex-1">
@@ -311,7 +311,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                     Modular content that adapts to operators, fleet managers, and drivers.
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Message match scores improved 45%.</p>
+                    <p className="text-sm text-white/60"><span className="text-[#03FF68]">Impact:</span> Message match scores improved 45%.</p>
                   </div>
                 </div>
               </div>
@@ -319,7 +319,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
 
             <div className="bg-white/5 rounded-xl p-8 border border-white/10">
               <div className="flex gap-4 items-start">
-                <div className="w-8 h-8 rounded-full bg-[#6A0DAD] flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#03FF68] flex items-center justify-center flex-shrink-0">
                   <span className="text-[#212529]">5</span>
                 </div>
                 <div className="flex-1">
@@ -328,7 +328,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                     Live status dashboard instead of static claims. Real-time proof builds trust. 
                   </p>
                   <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-                    <p className="text-sm text-white/60"><span className="text-[#6A0DAD]">Impact:</span> Demo requests jumped 30%.</p>
+                    <p className="text-sm text-white/60"><span className="text-[#03FF68]">Impact:</span> Demo requests jumped 30%.</p>
                   </div>
                 </div>
               </div>
@@ -372,7 +372,7 @@ export default function RevolvProjectPage({ onBack, onProjectClick }: RevolvProj
                     <div>
                       <div className="h-20 bg-[#212529] rounded-lg border border-[#03FF68]/30 mb-3" />
                       <p className="text-sm text-white/60">Background</p>
-                      <p className="text-sm">#212529</p>
+                      <p className="text-sm">#03FF68</p>
                     </div>
                     <div>
                       <div className="h-20 bg-[#03FF68] rounded-lg mb-3" />
