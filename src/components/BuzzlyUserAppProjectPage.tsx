@@ -115,7 +115,7 @@ export default function BuzzlyUserAppProjectPage({ onBack, onProjectClick }: Buz
                 Agencies using Buzzly's web platform were losing deals because client approvals took too long. Business owners had no visibility into scheduled content and relied on email chains with screenshots to review posts. This created confusion, delays, and frustration for both agencies and clients.
               </p>
               <p className="font-semibold text-white mb-2">
-                The core issues:
+                The core issue:
               </p>
                <p className="text-white/60 leading-relaxed">
                   Clients needed desktop access or had to search emails to find content for approval. Without a mobile solution, the process required multiple tools and constant communication, impacting retention and satisfaction.
