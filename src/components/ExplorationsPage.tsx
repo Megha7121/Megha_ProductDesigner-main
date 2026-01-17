@@ -42,7 +42,7 @@ export default function ExplorationsPage() {
         {
           name: 'Market Strategy & Analytics',
           description: 'Analyzed market trends, competitors, and buyer behavior to refine pricing, enhance product features, sharpen marketing, and drive strategic market impact.',
-          impact: '80% increase in revenue from OneCT, Diet Moi, YIOO',
+          impact: '80% revenue increase across multiple consumer product lines',
           metrics: ['Market Analysis', 'Competitor Research', 'Pricing Strategy', 'Product Enhancement'],
         }
       ],
